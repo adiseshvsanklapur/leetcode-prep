@@ -26,12 +26,12 @@ class Solution:
     # use sorting of the string to make sure its the same
     # but time complexity goes down
 
-    class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
-        if sorted(s) == sorted(t):
-            return True
-        else:
-            return False
+    # class Solution:
+    # def isAnagram(self, s: str, t: str) -> bool:
+    #     if sorted(s) == sorted(t):
+    #         return True
+    #     else:
+    #         return False
 
     #time complexity: O(S log S) + O(T log T)
     #space complexity: O(1) if we don't consider
